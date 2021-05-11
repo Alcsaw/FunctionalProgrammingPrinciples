@@ -5,14 +5,22 @@ This repository contains the follow up code from the course Functional Programmi
 # About the course
 
 Some of the topics I studied in this course are:
+
+### Week 1:
 - Programming Paradigms
 - Reasons to use Functional Programming
 - Evaluation methods in Scala
+  - call-by-name
+  - call-by-value
 - Short-circuit evaluation
 - Tail Recursion
+
+### Week 2
 - High-Order Functions
 - Currying
 - Infix Notation
   - Relaxed Identifiers
   - Precedence Rules
+
+### Week 3
 - Persistent Data Structures
