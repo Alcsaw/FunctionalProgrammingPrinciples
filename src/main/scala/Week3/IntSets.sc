@@ -3,6 +3,7 @@ import sun.invoke.empty.Empty
 abstract class IntSet {
   def incl(x: Int): IntSet
   def contains(x: Int): Boolean
+  def union(other: IntSet): IntSet
 }
 
 class NonEmpty(elem: Int, left: IntSet, rigth: IntSet) extends IntSet {
@@ -18,6 +19,9 @@ class NonEmpty(elem: Int, left: IntSet, rigth: IntSet) extends IntSet {
     else this
   }
 
+  override def union(other: IntSet): IntSet =
+    ((left union rigth) union other) incl elem
+
   override def toString: String = "{" + left + elem + rigth + "}"
 }
 
@@ -26,9 +30,17 @@ class Empty extends IntSet {
 
   override def incl(x: Int): IntSet = new NonEmpty(x, new Empty, new Empty)
 
+  override def union(other: IntSet): IntSet = other
+
   override def toString: String = "."
 }
 
 
 val t1 = new NonEmpty(3, new Empty, new Empty)
 val t2 = t1 incl(4)
+
+val google = List("android", "Android", "galaxy", "Galaxy", "nexus", "Nexus")
+val text = "I have a Galaxy phone"
+val res = google.exists(keyword => text.contains(keyword))
+
+println(res)

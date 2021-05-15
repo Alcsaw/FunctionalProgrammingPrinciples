@@ -10,6 +10,7 @@ Some of the topics I studied in this course are:
 - Programming Paradigms
 - Reasons to use Functional Programming
 - Evaluation methods in Scala
+  - Substitution model
   - call-by-name
   - call-by-value
 - Short-circuit evaluation
@@ -24,3 +25,14 @@ Some of the topics I studied in this course are:
 
 ### Week 3
 - Persistent Data Structures
+- Class Hierarchies
+- Dynamic Binding
+  - Dynamic method dispatch
+- How classes are organized
+  - packages and imports
+  - single inheritance
+  - Exceptions
+- Polymorphism
+  - Cons-Lists
+  - Type Parameters
+  - Type erasure
