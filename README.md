@@ -66,3 +66,21 @@ Some of the topics I studied in this course are:
 - Lists
   - Constructors of List: `Nil` and `::` (pronounced cons)
   - List operations and patterns
+  
+### Week 5
+- More functions on Lists
+  - last, init, concat, reverse, removeAt, flatten
+- Pairs and Tuples
+  - Sorting Lists faster with merge sort
+  - the Tuple class
+- Implicit Parameters
+  - Parametrization with Ordering
+- Higher-Order List Functions
+- Reduction of Lists
+Extra credit:
+- Reasoning about `concat`
+  - structural induction
+  - referential transparency
+- A Larger Equational Proof on Lists
+  - generalize the equation
+  - fold/unfold method
