@@ -84,3 +84,14 @@ Extra credit:
 - A Larger Equational Proof on Lists
   - generalize the equation
   - fold/unfold method
+  
+### Week 6
+- Other Collections
+  - Vector
+  - Collection Hierarchy
+  - Range
+- Combinatorial Search and For-Expressions
+- Sets
+- Maps
+- Option Type
+

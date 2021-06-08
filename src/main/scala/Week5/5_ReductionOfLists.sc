@@ -120,6 +120,7 @@ lengthFun(nums)
 The following are the implementations of
 foldLeft and foldRight in the List class
  */
+/*
 abstract class List[T] {
   // ...
   def reduceLeft(op: (T, T) => T): T = this match {
@@ -143,3 +144,4 @@ abstract class List[T] {
     case x :: xs => op(x, (xs foldRight z)(op))
   }
 }
+*/
